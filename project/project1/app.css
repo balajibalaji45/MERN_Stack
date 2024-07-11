@@ -1,0 +1,48 @@
+body {
+    background-image: url(/website/furimages/fur1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.font1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Example background color with opacity */
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 15px 25px;
+}
+
+.head {
+    margin-top: 4vh; /* Vertically centered content */
+    transform: translateY(-50%);
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(203, 198, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin-right: 2px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+}

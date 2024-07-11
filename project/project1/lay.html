@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lay</title>
+    <style>
+      
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+          "s1 s2"
+          "s1 s3";
+          gap: 5px;
+          background-color: black;
+}
+.box1{
+    background-image:url("furimages/fur3.jpeg");
+    object-fit: cover;
+    /* background-color: blueviolet; */
+    grid-area: s1;
+    background-position:center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.box2{
+    background-image:url("furimages/fur10.jpeg");
+    background-position:center;
+    /* background-color: rgb(127, 104, 148); */
+    grid-area: s2;
+}
+.box3{
+    background-image:url("furimages/fur11.jpeg");
+    background-position:center;
+    /* background-color: rgb(26, 21, 31); */
+    grid-area: s3;
+}
+       
+.btn{
+    background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: auto; /* Push button to the bottom */
+
+}
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <!-- <img src="/website/furimages/fur7.jpeg" alt="Fur Image 1"> -->
+            <button class="btn">Explore</button>
+        </div>
+        <div class="box2">
+            <!-- <img src="/website/furimages/fur10.jpeg" alt="Fur Image 2"> -->
+            <button class="btn">Explore</button>
+        </div>
+        <div class="box3">
+            <!-- <img src="/website/furimages/fur11.jpeg" alt="Fur Image 3"> -->
+            <button class="btn">Explore</button>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        body {
+    background-image: url(/website/furimages/fur1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.font1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Example background color with opacity */
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+.nav-link {
+    font-size: 20px;
+    padding: 15px 25px;
+}
+
+.head {
+    margin-top: 4vh; /* Vertically centered content */
+    transform: translateY(-50%);
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(203, 198, 102);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+p {
+    margin-right: 2px;
+    font-weight: bold;
+}
+h2{
+    font-weight: bolder;
+}
+
+    </style>
+</head>
+<body class="back">
+    <nav class="font1 d-flex justify-content-center">
+        <a class="nav-link mx-4" href="#">Home</a>
+        <a class="nav-link mx-4" href="#">About</a>
+        <a class="nav-link mx-4" href="#">Furniture</a>
+        <a class="nav-link mx-4" href="#">Blog</a>
+    </nav>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="text-center">
+            <div class="head">
+                <h2>Furnish your dream</h2>
+                <h2>with your Furniture!!</h2>
+                <div class="con mt-3">
+                    <p>Unleash Your creativity with our Versatile furniture options.</p>
+                    <p>Experience comfort and quality with our furniture.</p><br>
+                </div>
+                <div class="mt-3">
+                    <a class="btn  me-2" href="http://127.0.0.1:5500/website/product.html" target="_blank">Buy Now</a>
+                    <a class="btn " href="http://127.0.0.1:5500/website/lay.html">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
